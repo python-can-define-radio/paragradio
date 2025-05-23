@@ -19,8 +19,8 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/python-can-define-radio/side-projects/tree/main/2024_10_07_GRC_guizero_experim"
-"Bug Tracker" = "https://github.com/python-can-define-radio/side-projects/issues"
+"Homepage" = "https://github.com/python-can-define-radio/paragradio"
+"Bug Tracker" = "https://github.com/python-can-define-radio/paragradio/issues"
 
 [tool.mypy]
 disable_error_code = [
