@@ -7,10 +7,11 @@ and this project adheres to the `year.month` version scheme documented in the RE
 
 ## [Unreleased]
 
-### Changed
+### Intending to change:
 
-- Commands to parallel GNU Radio process are now sent synchronously. For version 2025.03 and earlier, the commands were put into a queue which the parallel GNU Radio process consumed with a 1 millisecond delay (approx) between commands. The new approach may cause timing changes if you do very frequent adjustments to your flowgraph. Further discussion [here](https://github.com/python-can-define-radio/paragradio/issues/1).
-- Many of the errors that GNU Radio produces will now be visible when calling the `.config` method. Before, the errors were usually silenced.
+- Send command to parallel GNU Radio process synchronously. For version 2025.03 and earlier, the commands were put into a queue which the parallel GNU Radio process consumed with a 1 millisecond delay (approx) between commands. The new approach may cause timing changes if you do very frequent adjustments to your flowgraph. Further discussion [here](https://github.com/python-can-define-radio/paragradio/issues/1).
+- Many of the errors that GNU Radio produces should be visible when calling the `.config` method. Before, the errors were usually silenced.
+- Add more simulators
 
 ### Other notes
 
