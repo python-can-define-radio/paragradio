@@ -6,7 +6,7 @@ from paragradio.v2025_03._internal.core import (
     PSK_Tx_loop,
 )
 
-# this is for mypy
+# this is for static analysis tools like mypy
 __all__ = [
     "SpecAn",
     "SpecAnSim",
