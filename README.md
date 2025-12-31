@@ -1,4 +1,7 @@
 # paragradio
+
+> [!IMPORTANT]
+> paragradio is no longer being developed by the original creators. Pull requests are welcome.
     
 paragradio (Parallel GNU Radio) module.
     
@@ -33,7 +36,6 @@ Examples:
 |----------|-----------------------|------------------------|
 | v2025_02 | Before Feb 1, 2025    | Starting Feb 1, 2025   | 
 | v2025_05 | Before May 1, 2025    | Starting May 1, 2025   | 
-| v2026_01 | Before Jan 1, 2026    | Starting Jan 1, 2026   | 
 | etc.     |                       |                        |
 
 ### License
